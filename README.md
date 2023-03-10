@@ -186,3 +186,24 @@ The `summarizeMeeting` method takes the meeting notes as input and generates a s
 # Conclusion
 
 The MeetingBot app we've built is a simple yet powerful tool for capturing meeting notes and generating summaries automatically. By using natural language processing and automatic summarization algorithms, we can save time and effort in manually taking notes and summarizing meetings. This app can be further improved by adding more features such as sentiment analysis and topic modeling to provide more insights into the meeting. Overall, the MeetingBot app is a great example of how AI and machine learning can be used to streamline and automate various tasks in our daily lives.
+
+# How To use the MeetingBot
+you will need to add it as a bot to your Teams channel. Once it is added, you can start a meeting as usual and the bot will automatically capture the meeting notes and generate a summary.
+
+# Here are the steps to add the MeetingBot to your Teams channel:
+
+Create a new bot registration in the Azure portal.
+
+Copy the Microsoft App ID and Microsoft App Password generated for the bot.
+
+Go to the Teams app and click on "Apps" on the left-hand side menu.
+
+Search for "MeetingBot" and click "Add".
+
+Enter the Microsoft App ID and Microsoft App Password when prompted.
+
+Once the bot is added, you can start a meeting in your Teams channel as usual.
+
+The MeetingBot will automatically capture the meeting notes and generate a summary.
+
+Note that the MeetingBot uses natural language processing and automatic summarization algorithms to generate the summary, so the quality of the summary will depend on the accuracy of the meeting notes. However, the bot can save you time and effort in manually taking notes and summarizing meetings.
